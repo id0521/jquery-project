@@ -1,0 +1,17 @@
+td,
+th {
+  border: 1px solid black;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 5rem;
+}
+
+.options {
+  border: none;
+}

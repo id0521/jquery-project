@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="jquery.js"></script>
+  </head>
+
+  <body>
+    <h1>Student Management System</h1>
+
+    <form>
+      <label>First Name:</label> <input type="text" class='add' name="firstname" required />
+      <label>Last Name:</label> <input type="text" class='add' name="lastname" required /> <br />
+      <label>Email:</label> <input type="email" class='add' name="email" required />
+      <label>Location:</label> <input type="text" class='add' name="location" required /> <br />
+      <label>Phone:</label> <input type="text" class='add' name="phone" required />
+      <label>Address:</label> <input type="text" class='add' name="address" required /> <br />
+      <input type="submit" value="Add Student" />
+    </form>
+
+    <input type="text" placeholder="Search Student Info" /><br />
+    <br />
+
+    <select>
+      <option value="10">Show 10 records</option>
+      <option value="20">Show 20 records</option>
+      <option value="50">Show 50 records</option>
+      <option value="100">Show 100 records</option>
+    </select>
+
+    <button>Show More Details</button>
+
+    <p></p>
+
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Location</th>
+        <th>Phone</th>
+        <th>Address</th>
+      </tr>
+    </table>
+  </body>
+</html>
